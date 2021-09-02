@@ -14,7 +14,7 @@ const printNumber = (i, next) => {
 let nArr = [];
 for (let i = 1; i <= 100; i++) {
   let x = printNumber(i, (text) => {
-    console.log(`Number : ${Math.ceil((Date.now() - startTime) / 1000)}`);
+    console.log(` Time : ${Math.ceil((Date.now() - startTime) / 1000)}`);
     let resNo = parseInt(text.split(" ")[1], 10);
     nArr.push(resNo);
 
